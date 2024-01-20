@@ -20,6 +20,7 @@ a:hover {
 div#container {
   display: flex;
   flex-direction: column;
+  margin: 1em;
 }
 
 div#content {
@@ -46,4 +47,50 @@ article div img {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+header {
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+header h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  display: inherit;
+  align-items: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  height: 40px;
+}
+
+nav ul {
+  padding-left: calc 1em;
+}
+
+nav li {
+  display: inline-block;
+  width: 5em;
+  margin-right: 1em;
+}
+
+aside {
+  padding: 2em;
+  padding-top: calc 3em;
+}
+
+footer {
+  background-color: #333;
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+footer p {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
